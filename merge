@@ -1,0 +1,13 @@
+
+local args = {
+    [1] = "Cash",
+    [2] = 999999999999999999999999999999999999999999999
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("AddValueEvent"):FireServer(unpack(args))
+
+local args = {
+    [1] = 999999999999999999999999999999999999999999999
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("GemEvent"):FireServer(unpack(args))
